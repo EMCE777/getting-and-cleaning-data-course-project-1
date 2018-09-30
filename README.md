@@ -2,7 +2,7 @@
 
 This repository contains the following files:
 
-1) EADME.md, this file, which provides an overview of the data set and how it was created.
+1) README.md, this file, which provides an overview of the data set and how it was created.
 
 2) tidy_data.txt, which contains the data set.
 
