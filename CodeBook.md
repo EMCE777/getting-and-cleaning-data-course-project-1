@@ -16,7 +16,9 @@ This code book describes all of the data fields in the tidy_data.txt file.
 
 # Measurements
 
-These variables are all of the mean values for the corresponding measurement based on the subject and the activity.  These are all of data type numeric. 
+These variables contain the mean values and standard deviations for  the corresponding measurement based on the subject and the activity.  These are all of data type numeric. 
+
+
 
 
    ### Updated Variable Names
