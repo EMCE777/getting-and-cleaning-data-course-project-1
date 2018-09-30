@@ -92,5 +92,4 @@ human_Activity_Means <- human_Activity %>%
   group_by(subject, activity) %>%
   summarise_all(funs(mean))
 
-write.table(human_Activity_Means, "tidy_data.txt", row.names = FALSE, 
-            quote = FALSE)
+write.table(human_Activity_Means, "tidy_data.txt", row.names = FALSE)
