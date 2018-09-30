@@ -4,83 +4,178 @@ This code book describes all of the data fields in the tidy_data.txt file.
 
 # Identifiers
 
- - subject - integer - The ID of the test subject
+ 1) Subject :This indicates the ID of the test subject
    - 1 - 30
- - activity - string - The type of activity that they were performing when the measurements were taken
-   - Walking
-   - Walking Upstairs
-   - Walking Downstairs
-   - Sitting
-   - Standing
-   - Laying
+ 2) Activity : This shows the type of activity that they were performing when the measurements were taken. They are as follows:- 
+   a) Walking
+   b) Walking Upstairs
+   c) Walking Downstairs
+   d) Sitting
+   e) Standing
+   f) Laying
 
 # Measurements
 
-These variables are all of the mean values for the corresponding measurement based on the subject and the activity.  These are all of data type numeric.
+These variables are all of the mean values for the corresponding measurement based on the subject and the activity.  These are all of data type numeric. 
 
- - tBodyAccmeanX
- - tBodyAccmeanY
- - tBodyAccmeanZ
- - tBodyAccstdX
- - tBodyAccstdY
- - tBodyAccstdZ
- - tGravityAccmeanX
- - tGravityAccmeanY
- - tGravityAccmeanZ
- - tGravityAccstdX
- - tGravityAccstdY
- - tGravityAccstdZ
- - tBodyAccJerkmeanX
- - tBodyAccJerkmeanY
- - tBodyAccJerkmeanZ
- - tBodyAccJerkstdX
- - tBodyAccJerkstdY
- - tBodyAccJerkstdZ
- - tBodyGyromeanX
- - tBodyGyromeanY
- - tBodyGyromeanZ
- - tBodyGyrostdX
- - tBodyGyrostdY
- - tBodyGyrostdZ
- - tBodyGyroJerkmeanX
- - tBodyGyroJerkmeanY
- - tBodyGyroJerkmeanZ
- - tBodyGyroJerkstdX
- - tBodyGyroJerkstdY
- - tBodyGyroJerkstdZ
- - tBodyAccMagmean
- - tBodyAccMagstd
- - tGravityAccMagmean
- - tGravityAccMagstd
- - tBodyAccJerkMagmean
- - tBodyAccJerkMagstd
- - tBodyGyroMagmean
- - tBodyGyroMagstd
- - tBodyGyroJerkMagmean
- - tBodyGyroJerkMagstd
- - fBodyAccmeanX
- - fBodyAccmeanY
- - fBodyAccmeanZ
- - fBodyAccstdX
- - fBodyAccstdY
- - fBodyAccstdZ
- - fBodyAccJerkmeanX
- - fBodyAccJerkmeanY
- - fBodyAccJerkmeanZ
- - fBodyAccJerkstdX
- - fBodyAccJerkstdY
- - fBodyAccJerkstdZ
- - fBodyGyromeanX
- - fBodyGyromeanY
- - fBodyGyromeanZ
- - fBodyGyrostdX
- - fBodyGyrostdY
- - fBodyGyrostdZ
- - fBodyAccMagmean
- - fBodyAccMagstd
- - fBodyBodyAccJerkMagmean
- - fBodyBodyAccJerkMagstd
- - fBodyBodyGyroMagmean
- - fBodyBodyGyroMagstd
- - fBodyBodyGyroJerkMagmean
- - fBodyBodyGyroJerkMagstd
+
+   ### Updated Variable Names
+
+timeDomainBodyAccelerometerMeanX 
+
+timeDomainBodyAccelerometerMeanY 
+
+timeDomainBodyAccelerometerMeanZ 
+
+timeDomainBodyAccelerometerStandardDeviationX 
+
+timeDomainBodyAccelerometerStandardDeviationY
+
+timeDomainBodyAccelerometerStandardDeviationZ
+
+timeDomainGravityAccelerometerMeanX 
+
+timeDomainGravityAccelerometerMeanY 
+
+timeDomainGravityAccelerometerMeanZ 
+
+timeDomainGravityAccelerometerStandardDeviationX 
+
+timeDomainGravityAccelerometerStandardDeviationY 
+
+timeDomainGravityAccelerometerStandardDeviationZ 
+
+timeDomainBodyAccelerometerJerkMeanX 
+
+timeDomainBodyAccelerometerJerkMeanY
+
+timeDomainBodyAccelerometerJerkMeanZ 
+
+timeDomainBodyAccelerometerJerkStandardDeviationX 
+
+timeDomainBodyAccelerometerJerkStandardDeviationY
+
+timeDomainBodyAccelerometerJerkStandardDeviationZ
+
+timeDomainBodyGyroscopeMeanX 
+
+timeDomainBodyGyroscopeMeanY
+
+timeDomainBodyGyroscopeMeanZ 
+
+timeDomainBodyGyroscopeStandardDeviationX 
+
+timeDomainBodyGyroscopeStandardDeviationY
+
+timeDomainBodyGyroscopeStandardDeviationZ 
+
+timeDomainBodyGyroscopeJerkMeanX 
+
+timeDomainBodyGyroscopeJerkMeanY 
+
+timeDomainBodyGyroscopeJerkMeanZ 
+
+timeDomainBodyGyroscopeJerkStandardDeviationX
+
+timeDomainBodyGyroscopeJerkStandardDeviationY
+
+timeDomainBodyGyroscopeJerkStandardDeviationZ 
+
+timeDomainBodyAccelerometerMagnitudeMean
+
+timeDomainBodyAccelerometerMagnitudeStandardDeviation
+
+timeDomainGravityAccelerometerMagnitudeMean
+
+timeDomainGravityAccelerometerMagnitudeStandardDeviation
+
+timeDomainBodyAccelerometerJerkMagnitudeMean
+
+timeDomainBodyAccelerometerJerkMagnitudeStandardDeviation
+
+timeDomainBodyGyroscopeMagnitudeMean 
+
+timeDomainBodyGyroscopeMagnitudeStandardDeviation
+
+timeDomainBodyGyroscopeJerkMagnitudeMean
+
+timeDomainBodyGyroscopeJerkMagnitudeStandardDeviation
+
+frequencyDomainBodyAccelerometerMeanX 
+
+frequencyDomainBodyAccelerometerMeanY 
+
+frequencyDomainBodyAccelerometerMeanZ 
+
+frequencyDomainBodyAccelerometerStandardDeviationX
+
+frequencyDomainBodyAccelerometerStandardDeviationY
+
+frequencyDomainBodyAccelerometerStandardDeviationZ
+
+frequencyDomainBodyAccelerometerMeanFrequencyX 
+
+frequencyDomainBodyAccelerometerMeanFrequencyY
+
+frequencyDomainBodyAccelerometerMeanFrequencyZ
+
+frequencyDomainBodyAccelerometerJerkMeanX
+
+frequencyDomainBodyAccelerometerJerkMeanY 
+
+frequencyDomainBodyAccelerometerJerkMeanZ
+
+frequencyDomainBodyAccelerometerJerkStandardDeviationX
+
+frequencyDomainBodyAccelerometerJerkStandardDeviationY
+
+frequencyDomainBodyAccelerometerJerkStandardDeviationZ
+
+frequencyDomainBodyAccelerometerJerkMeanFrequencyX
+
+frequencyDomainBodyAccelerometerJerkMeanFrequencyY
+
+frequencyDomainBodyAccelerometerJerkMeanFrequencyZ
+
+frequencyDomainBodyGyroscopeMeanX
+
+frequencyDomainBodyGyroscopeMeanY 
+
+frequencyDomainBodyGyroscopeMeanZ 
+
+frequencyDomainBodyGyroscopeStandardDeviationX
+
+frequencyDomainBodyGyroscopeStandardDeviationY
+
+frequencyDomainBodyGyroscopeStandardDeviationZ
+
+frequencyDomainBodyGyroscopeMeanFrequencyX
+
+frequencyDomainBodyGyroscopeMeanFrequencyY
+
+frequencyDomainBodyGyroscopeMeanFrequencyZ
+
+frequencyDomainBodyAccelerometerMagnitudeMean
+
+frequencyDomainBodyAccelerometerMagnitudeStandardDeviation
+
+frequencyDomainBodyAccelerometerMagnitudeMeanFrequency
+
+frequencyDomainBodyAccelerometerJerkMagnitudeMean
+
+frequencyDomainBodyAccelerometerJerkMagnitudeStandardDeviation
+
+frequencyDomainBodyAccelerometerJerkMagnitudeMeanFrequency
+
+frequencyDomainBodyGyroscopeMagnitudeMean
+
+frequencyDomainBodyGyroscopeMagnitudeStandardDeviation
+
+frequencyDomainBodyGyroscopeMagnitudeMeanFrequency
+
+frequencyDomainBodyGyroscopeJerkMagnitudeMean
+
+frequencyDomainBodyGyroscopeJerkMagnitudeStandardDeviation
+
+frequencyDomainBodyGyroscopeJerkMagnitudeMeanFrequency
+
