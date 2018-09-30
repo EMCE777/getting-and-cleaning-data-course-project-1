@@ -5,7 +5,7 @@ This code book describes all of the data fields in the tidy_data.txt file.
 # Identifiers
 
  1) Subject :This indicates the ID of the test subject
-   - 1 - 30
+    1 - 30
  2) Activity : This shows the type of activity that they were performing when the measurements were taken. They are as follows:- 
    a) Walking
    b) Walking Upstairs
